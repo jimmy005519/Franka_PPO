@@ -12,10 +12,12 @@ Prerequisites
         Linux: 470
 
 1. conda activate rlgpu first
+2. put this folder under isaacgym/Franka_PPO
 2. export LD_LIBRARY_PATH=/home/jimmy/anaconda3/envs/rlgpu/lib
-3. python franka_latch_ik_lift_cpu_solve.py \
+4. python franka_latch_ik_lift_cpu_solve.py \
   --num_envs 16 \
   --eval \
   --headless \
   --debug_print \
   --checkpoint ppo_latch_free_v9.pt
+   
