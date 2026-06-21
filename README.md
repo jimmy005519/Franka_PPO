@@ -2,7 +2,11 @@
 Learn Graping Latch using PPO and IK
 
 Prerequisites
-
+    
+    Download IsaacGym 
+    
+    run ./create_conda_env_rlgpu.sh
+    
     Ubuntu 18.04 or 20.04.
 
     Python 3.6, 3.7 or 3.8.
