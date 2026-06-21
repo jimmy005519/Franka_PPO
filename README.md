@@ -29,7 +29,7 @@ PPO update at policy step 499200; episodes=29406
 step=499230 slide_unlocked=False released=False slide=0.0000 lift=0.0000 latch_z=0.4586 table_z=0.4000 reach=0.059 finger_d=(0.069,0.072) grip_width=0.077 force=(0.88,1.21) latch_xy_force=0.57 contact=(True,True) grasped=False hold=0 ready=False active=1/16 released_n=0 max_lift=0.0000 obj_h=0.0586 locked_err=0.000000 reward=1.584 return=13.03
 
 when the console reaches approximately
->>> PPO update at policy step 9984:
+1. PPO update at policy step 9984:
 cp ppo_latch_free_v9.pt ppo_latch_free_v9_10k.pt
->>> PPO update at policy step 49920:
+2. PPO update at policy step 49920:
 cp ppo_latch_free_v9.pt ppo_latch_free_v9_50k.pt
