@@ -1,5 +1,6 @@
 # Franka_PPO
-Learn Graping Latch using PPO and IK
+Learn Graping Latch using PPO and IK, So PPO can learn smooth behavior like:
+open → move around latch → close slowly → squeeze → lift
 
 Prerequisites
     
